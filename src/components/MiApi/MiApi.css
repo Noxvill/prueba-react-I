@@ -1,0 +1,25 @@
+.cont1 {
+    display: flex;
+    flex-flow: nowrap;
+    flex-direction: row; /* Alinea las tarjetas en una columna */
+    align-items: center; /* Centra las tarjetas horizontalmente */
+    overflow-x: auto; /* Agrega una barra de desplazamiento vertical si el contenido excede el margen */
+    max-height: 300px; /* Establece una altura máxima para el contenedor */
+  }
+
+  
+  .custom-card {
+    background-color: rgb(172, 106, 6);
+    width: 150%; /* Ancho fijo para cada tarjeta */
+    margin-right: 10px; /* Espacio entre las tarjetas en la fila */
+    text-align: center;
+  }
+  
+  /* Establece el tamaño deseado para las imágenes */
+  .custom-img-size {
+    width: 100%;
+    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente */
+    max-height: 150px; /* Establece una altura máxima para las imágenes */
+    object-fit: cover;
+  }
+  

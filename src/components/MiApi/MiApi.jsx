@@ -23,6 +23,7 @@ consultApi()
 return(
 
     <>
+
 {
 
 characters.map((character) =>

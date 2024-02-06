@@ -10,15 +10,20 @@
   
   .custom-card {
     background-color: rgb(172, 106, 6);
-    width: 150%; /* Ancho fijo para cada tarjeta */
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 225px;
+    width:80%; /* Ancho fijo para cada tarjeta */
     margin-right: 10px; /* Espacio entre las tarjetas en la fila */
     text-align: center;
   }
   
   /* Establece el tamaño deseado para las imágenes */
   .custom-img-size {
-    width: 100%;
-    height: auto; /* Permite que la altura de la imagen se ajuste automáticamente */
+    width: auto;
+    height: 80%; /* Permite que la altura de la imagen se ajuste automáticamente */
     max-height: 150px; /* Establece una altura máxima para las imágenes */
     object-fit: cover;
   }

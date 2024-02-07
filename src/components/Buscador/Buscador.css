@@ -10,14 +10,14 @@
   }
 
   
-  .custom-card {
+  .custom-card2 {
     background-color: rgb(172, 106, 6);
     padding-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    width:100%; /* Ancho fijo para cada tarjeta */
+    width:30%; /* Ancho fijo para cada tarjeta */
     margin-right: 10px; /* Espacio entre las tarjetas en la fila */
     text-align: center;
   }
